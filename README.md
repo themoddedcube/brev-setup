@@ -1,5 +1,11 @@
 # Brev Dev Environment Setup
 
+## Quickstart
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/themoddedcube/brev-setup/main/setup-dev.sh | bash
+```
+
 One-command setup script for bootstrapping a new [Brev](https://www.brev.dev/) instance with everything needed for development.
 
 ## What It Does
