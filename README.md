@@ -13,7 +13,7 @@ One-command setup script for bootstrapping a new [Brev](https://www.brev.dev/) i
 - Updates system packages
 - Configures Git identity
 - Generates an SSH key for GitHub (ed25519) and prints the public key for you to add
-- Installs Node.js 22 (current LTS), removing any conflicting older Node first
+- Installs Node.js 24 (current Active LTS), removing any conflicting older Node first
 - Installs [Claude Code](https://docs.anthropic.com/en/docs/claude-code) via the native installer (no npm permission headaches)
 - Adds a `claude dsp` shortcut for `claude --dangerously-skip-permissions`
 - Enables tmux mouse support
@@ -23,14 +23,14 @@ One-command setup script for bootstrapping a new [Brev](https://www.brev.dev/) i
 The script uses sensible defaults but you can override them with environment variables:
 
 ```bash
-GIT_NAME="Your Name" EMAIL="you@example.com" NODE_MAJOR=24 ./setup-dev.sh
+GIT_NAME="Your Name" EMAIL="you@example.com" NODE_MAJOR=22 ./setup-dev.sh
 ```
 
-| Variable     | Default                  | Description                       |
-| ------------ | ------------------------ | --------------------------------- |
-| `GIT_NAME`   | `themoddedcube`          | Git `user.name`                   |
-| `EMAIL`      | `themoddedcube@gmail.com`| Git `user.email` + SSH key label  |
-| `NODE_MAJOR` | `22`                     | Node.js LTS major version         |
+| Variable     | Default                     | Description                       |
+| ------------ | --------------------------- | --------------------------------- |
+| `GIT_NAME`   | `Chaithu Talasila`          | Git `user.name`                   |
+| `EMAIL`      | `talasila.chaithu1@gmail.com`| Git `user.email` + SSH key label |
+| `NODE_MAJOR` | `24`                        | Node.js LTS major version         |
 
 ## Usage
 
