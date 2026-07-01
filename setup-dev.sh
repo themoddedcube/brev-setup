@@ -5,8 +5,8 @@ set -euo pipefail
 # Configurable values. Override before running, e.g.:
 #   GIT_NAME="Your Name" EMAIL="you@example.com" ./setup-dev.sh
 # ----------------------------------------------------------------------
-GIT_NAME="${GIT_NAME:-Chaithu Talasila}"
-EMAIL="${EMAIL:-talasila.chaithu1@gmail.com}"
+GIT_NAME="${GIT_NAME:-themoddedcube}"
+EMAIL="${EMAIL:-themoddedcube@gmail.com}"
 NODE_MAJOR="${NODE_MAJOR:-24}"   # Node.js LTS major version to install
 
 echo "== Updating packages =="
